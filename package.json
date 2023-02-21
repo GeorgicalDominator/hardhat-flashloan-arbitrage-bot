@@ -40,11 +40,17 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
+    "@aave/core-v3": "^1.17.2",
+    "@aave/protocol-v2": "^1.0.1",
     "@appliedblockchain/chainlink-contracts": "0.0.4",
     "@appliedblockchain/chainlink-plugins-fund-link": "0.0.1",
     "@chainlink/contracts": "^0.4.0",
     "@chainlink/test-helpers": "^0.0.7-alpha",
     "@chainlink/token": "^1.1.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.3",
     "babel-eslint": "^10.1.0",
     "dotenv": "^10.0.0"
   },
