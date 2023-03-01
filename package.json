@@ -1,7 +1,7 @@
 {
   "name": "hardhat-starter-kit",
   "version": "1.0.0",
-  "description": "",
+  "description": "solidity Flashloan Arbitrage bot. AAVE for borrowing uniswap, sushiswap for swaps. See contracts folder for contract",
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test ./test/unit/*.spec.ts --network hardhat",
@@ -56,5 +56,19 @@
   },
   "mocha": {
     "timeout": 10000000
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgicalDominator/hardhat-flashloan-arbitrage-bot.git"
+  },
+  "author": "SSOB20 <ssobs170@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/GeorgicalDominator/hardhat-flashloan-arbitrage-bot/issues"
+  },
+  "homepage": "https://github.com/GeorgicalDominator/hardhat-flashloan-arbitrage-bot#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
 }
